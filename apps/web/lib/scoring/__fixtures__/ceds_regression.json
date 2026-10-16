@@ -1,0 +1,94 @@
+[
+  {
+    "input": {
+      "email": "johnsmith@gmail.com",
+      "Account Name": "John Smith",
+      "Institution Name": "John Smith",
+      "Institution Location": "New York, USA",
+      "Account Location": "London, UK",
+      "Expected Graduation": "2023-06-01",
+      "Difference Before Last Renewal": -410,
+      "Proof Submission Date": "2021-01-01",
+      "Subscription Start Date": "2021-06-01",
+      "Subscription End Date": "2026-06-01",
+      "LI Job Company Name": "Deloitte",
+      "LI Job End Date": "",
+      "LI Title": "Senior Architect",
+      "LI Education Date Range": "2019 – 2023",
+      "Company Domain Name": "deloitte.com"
+    },
+    "expected": {
+      "total_score": 100,
+      "confidence_tier": 1
+    }
+  },
+  {
+    "input": {
+      "email": "maria.garcia@hotmail.com",
+      "Account Name": "Maria Garcia",
+      "Institution Name": "State University",
+      "Institution Location": "Barcelona, Spain",
+      "Account Location": "Barcelona, Spain",
+      "Expected Graduation": "2025-09-01",
+      "Difference Before Last Renewal": -200,
+      "Proof Submission Date": "2023-03-01",
+      "Subscription Start Date": "2023-09-01",
+      "Subscription End Date": "2026-09-01",
+      "LI Job Company Name": "Accenture",
+      "LI Job End Date": "",
+      "LI Title": "UX Designer",
+      "LI Education Date Range": "2021 – 2025",
+      "Company Domain Name": "accenture.com"
+    },
+    "expected": {
+      "total_score": 100,
+      "confidence_tier": 1
+    }
+  },
+  {
+    "input": {
+      "email": "weizhang@outlook.com",
+      "Account Name": "Wei Zhang",
+      "Institution Name": "Beijing Institute of Technology",
+      "Institution Location": "Beijing, China",
+      "Account Location": "Shanghai, China",
+      "Expected Graduation": "2026-12-01",
+      "Difference Before Last Renewal": 30,
+      "Proof Submission Date": "2021-01-10",
+      "Subscription Start Date": "2021-01-20",
+      "Subscription End Date": "2026-12-01",
+      "LI Job Company Name": "",
+      "LI Job End Date": "",
+      "LI Title": "",
+      "LI Education Date Range": "",
+      "Company Domain Name": ""
+    },
+    "expected": {
+      "total_score": 28,
+      "confidence_tier": 3
+    }
+  },
+  {
+    "input": {
+      "email": "e.wilson@student.ed.ac.uk",
+      "Account Name": "Emma Wilson",
+      "Institution Name": "University of Edinburgh",
+      "Institution Location": "Edinburgh, UK",
+      "Account Location": "Edinburgh, UK",
+      "Expected Graduation": "2027-06-01",
+      "Difference Before Last Renewal": 200,
+      "Proof Submission Date": "2024-09-10",
+      "Subscription Start Date": "2024-09-15",
+      "Subscription End Date": "2027-06-01",
+      "LI Job Company Name": "",
+      "LI Job End Date": "",
+      "LI Title": "PhD Student",
+      "LI Education Date Range": "2024 – 2027",
+      "Company Domain Name": "ed.ac.uk"
+    },
+    "expected": {
+      "total_score": 0,
+      "confidence_tier": 0
+    }
+  }
+]

@@ -1,0 +1,56 @@
+# Environment files — never commit
+.env
+.env.staging
+.env.production
+.env.local
+.env.*.local
+
+# Local benchmark capture — contains raw provider PII, never commit (V2 doc: extract→discard)
+bench_capture*.json
+bench_*.txt
+
+# Ground-truth benchmark samples — REAL student PII (names/emails/Clay profiles), never commit.
+# Curated locally via scripts/select_ground_truth.py from Joshua's source xlsx. See docs/GROUND_TRUTH.md.
+benchmark/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Supabase
+supabase/.temp/
+
+# Railway
+.railway/
+
+.vercel
+.env*.local
+bench_*.log

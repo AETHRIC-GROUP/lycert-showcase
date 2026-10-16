@@ -1,0 +1,38 @@
+{
+  "uid": "lycert_hubspot_connector_app",
+  "type": "app",
+  "config": {
+    "description": "Lycert's CRM connector (LYCERT_BRIDGE_ARCHITECTURE.md) — mirrors EDU contacts, estimates education status, writes it back as Lycert contact properties.",
+    "name": "Lycert",
+    "distribution": "private",
+    "auth": {
+      "type": "oauth",
+      "redirectUrls": [
+        "https://staging.example.com/api/crm/hubspot/oauth/callback"
+      ],
+      "requiredScopes": [
+        "oauth",
+        "crm.objects.contacts.read",
+        "crm.objects.contacts.write",
+        "crm.schemas.contacts.read",
+        "crm.schemas.contacts.write",
+        "automation"
+      ],
+      "optionalScopes": [],
+      "conditionallyRequiredScopes": []
+    },
+    "permittedUrls": {
+      "fetch": [
+        "https://api.hubapi.com"
+      ],
+      "iframe": [],
+      "img": []
+    },
+    "support": {
+      "supportEmail": "support@lycert.com",
+      "documentationUrl": "https://lycert.com/docs",
+      "supportUrl": "https://lycert.com/support",
+      "supportPhone": "+10000000000"
+    }
+  }
+}

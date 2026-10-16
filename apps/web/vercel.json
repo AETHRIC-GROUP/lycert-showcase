@@ -1,0 +1,12 @@
+{
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "buildCommand": "rm -rf .next/cache && npm run build",
+  "outputDirectory": ".next",
+  "crons": [
+    {
+      "path": "/api/lifecycle/run",
+      "schedule": "0 2 * * *"
+    }
+  ]
+}
